@@ -1,0 +1,11 @@
+% !TeX root = ../main.tex
+% \graphicspath{ {./images/} }
+\section{Graph Neural Network}
+
+Graph neural network (GNN) \cite{GNN} is a widely used deep neural network model aiming at capturing the dependence of nodes in graph-structured data. Graph data is often used to represent the network structure and interaction of a connected data set \cite{2021_Graph_Learning}, and social network data is one of the many applications of graph data. 
+
+Some studies exploit the advantages of GNN models to model the interactions between users in social network, e.g.,  \cite{Wu_Mei_Cheng_Zhang_2016}. Except from user-item context, \cite{Wu_Mei_Cheng_Zhang_2016} develop processes to model temporal dynamics within different time scales. 
+
+CoupledGNN proposed in \cite{cao2019popularity} contains two graph neural networks aiming at learning the interaction between nodes and the effect of information cascade. Graph learning methods are beneficial to figure out the patterns of cascade structure or global structure for popularity prediction in social networks \cite{10.1145/3331184.3331288}. \cite{10.1145/3331184.3331288} implements GNN models as a part of their proposed model which learns the representation of the cascade graph that is proved to have significantly improved the performance of predicting cascades in real-world datasets.
+
+VaCas \cite{9155349} learns the structures and patterns of cascade graphs by integrating VAE and Bi-GRU to its graph neural network model. By developing graph learning in both node-level and cascade-level, VaCas can handle the propagation uncertainty of diffusion, capture the information cascade and predict accurately cascade size at the same time.

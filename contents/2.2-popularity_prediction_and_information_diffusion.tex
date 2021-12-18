@@ -1,0 +1,11 @@
+% !TeX root = ../main.tex
+% \graphicspath{ {./images/} }
+\section{Popularity Prediction and Information Diffusion}
+
+Studies focusing on modeling the diffusion of information have been popular in the few years. There are various approaches to formulating how information diffuses. Summarized by a survey \cite{2021}, information diffusion models can mainly be divided into three methods: featured-based models, generative models, and deep learning models. 
+
+Feature-based models depend on feature engineering processes, where frequently used features containing temporal features \cite{8731564}, cascade structures \cite{8428538}, global graph relationships \cite{10.1145/2567948.2577312}, user and target data attributes \cite{8428538}, and content \cite{wu2018views}.
+
+Many studies focus on describing the evolution of information diffusion with generative models. They usually assume that the dynamics of diffusion can be characterized by a probabilistic statistical generative model, e.g., Poisson Processes, epidemic models, and bass models. \cite{8896027} proposed a variation model of bass model to predict the dynamic popularity of a tweet from Twitter, a social media for users to share their ideas with short messages.
+
+Deep learning models have widely developed in various domains, including population prediction studies. \cite{Wu_Mei_Cheng_Zhang_2016} proposed a model named Multi-scale Temporal Decomposition (MTD) to predict the popularity of photos on Flickr. MTD can automatically capture a photo's temporal patterns in different time scales and outperforms the other state-of-the-art models. In addition, graph neural network can be used to explore the relationships of users. \cite{cao2019popularity} proposed a graph-based model aiming at modeling the cascading effect in information diffusion by capturing the influences from users to their neighbors.
